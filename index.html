@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/vendor/bootstrap/bootstrap.min.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+
+    <!-- Leaflet Draw CSS -->
+    <link rel="stylesheet" href="/vendor/leaflet-plugin/leaflet.draw.css">
+
+    <!-- App Style -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <title>Leaflet Draw Example</title>
+</head>
+
+    <body>
+        <header class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-start">
+                        <h3>Leaflet Draw</h3>
+                    </div>
+                    <div class="col text-end">
+                        <a href="#" class="btn btn-secondary" onclick="getGeoJson()">Geojson</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="mapid"></div>
+
+        <!-- Leaflet's -->
+        <script src="/vendor/leaflet/leaflet.js"></script>
+        <script src="/vendor/leaflet-plugin/leaflet.draw.js"></script>
+
+        <!-- Bootstrap Bundle -->
+        <script src="/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+
+        <script src="/app.js"></script>
+    </body>
+
+</html>
